@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add News</title>
+    <link rel="stylesheet" href="./css/addNews.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form class="addNewsCard">
+        <p class="form-title">Add News</p>
+        <div>
+          <input
+            type="text"
+            class="imgURL"
+            id="imgURL"
+            placeholder="Enter Image URL"
+          />
+          <span class="or-tag">OR</span>
+          <input type="file" class="imgFile" id="imgFile" />
+        </div>
+        <input
+          type="text"
+          class="title"
+          id="title"
+          placeholder="Enter Title"
+          required
+        />
+        <input
+          type="text"
+          class="author"
+          id="author"
+          placeholder="Enter Author"
+          required
+        />
+        <input type="date" class="date" id="date" required />
+        <button class="submitBtn" type="submit">Add to Trending News</button>
+      </form>
+    </div>
+
+    <script src="./js/addNews.js"></script>
+  </body>
+</html>

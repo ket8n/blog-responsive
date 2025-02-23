@@ -1,0 +1,29 @@
+.main {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addNewsCard {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  border: 1px solid black;
+  padding: 3rem 3rem;
+}
+
+.or-tag {
+  margin: 0 1rem;
+}
+
+.form-title {
+  width: 100%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.submitBtn {
+  padding: 0.5rem 0;
+}
